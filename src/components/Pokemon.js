@@ -1,4 +1,5 @@
 import "./Pokemon.scss";
+import "./LikeCounter";
 
 export default function Pokemon(props) {
   return (
@@ -23,6 +24,7 @@ export default function Pokemon(props) {
                 {ability}
               </li>
             );
+            <button className="likeCounter"></button>;
           })}
         </ul>
       </div>

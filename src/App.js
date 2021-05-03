@@ -1,5 +1,7 @@
 import Title from "./components/Title";
 import Pokemon from "./components/Pokemon";
+import LikeCounter from "./components/LikeCounter";
+// import LikeButton from "./components/LikeButton";
 
 const all_pokemon = [
   {
@@ -46,6 +48,7 @@ function App() {
               terrifying={pokemon.terrifying}
               abilities={pokemon.abilities}
             />
+            <LikeCounter />
           </div>
         ))}
       </div>
